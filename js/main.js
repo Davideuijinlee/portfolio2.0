@@ -23,7 +23,7 @@ $(window).on('load', function(){
 
 // Handle all scroll events
 $(document).scroll(function() {
-  $(this).scrollTop() > 10
+  $(this).scrollTop() > 1
     ? ($(desktopNav).addClass("navigation__nav-scrolled"),
       $(desktopLinks).addClass("navigation__links-scrolled"),
       $(socialIcon).addClass("navigation__links-scrolled"),

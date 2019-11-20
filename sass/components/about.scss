@@ -31,6 +31,7 @@
     }
     
     &__header {
+        color: $color-primary-header;
         font-family: 'Open Sans Condensed', sans-serif;
         font-size: 4rem;
         text-align: center;
@@ -87,7 +88,7 @@
     }
 
     &__btn--more {
-        color: $color-white;
+        color: $color-primary-header;
         border: 2px solid $color-primary-blue;
         margin: inherit;
 
