@@ -92,7 +92,7 @@ body {
   box-sizing: border-box;
   padding: 0;
   overflow-x: hidden;
-  background-color: #241e20; }
+  background-color: #F8F8F8; }
   @media only screen and (max-width: 56.25em) {
     body {
       padding: 0; } }
@@ -125,7 +125,7 @@ p {
   width: 100%;
   height: 100%;
   z-index: 9999;
-  background: #241e20;
+  background: #F8F8F8;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -232,7 +232,7 @@ body {
   padding: 8px 24px;
   border: 2px solid #fff;
   background: transparent;
-  color: #fff;
+  color: #080808;
   letter-spacing: .08rem;
   outline: none;
   transition: all .5s ease; }
@@ -259,6 +259,7 @@ body {
       display: none; } }
   .navigation__wrapper {
     display: flex;
+    justify-content: center;
     max-width: 1800px;
     padding-top: 40px;
     margin-left: auto;
@@ -311,12 +312,11 @@ body {
         padding: 1.4rem; } }
   .navigation__list {
     display: flex;
-    text-align: right;
+    text-align: center;
     -webkit-box-pack: end;
     -ms-flex-pack: end;
-    -webkit-justify-content: flex-end;
-    justify-content: flex-end;
-    flex: 1 1 auto;
+    -webkit-justify-content: center;
+    justify-content: center;
     min-width: 0;
     max-width: 100%; }
     @media only screen and (max-width: 56.25em) {
@@ -344,7 +344,7 @@ body {
     line-height: 2.2; }
     .navigation__item:hover {
       text-decoration: none;
-      color: #de2a45;
+      color: #0739B9;
       cursor: pointer; }
   .navigation__social {
     display: flex;
@@ -358,7 +358,7 @@ body {
       fill: #fff;
       transition: all .5s; }
       .navigation__social__icon:hover {
-        fill: #de2a45; }
+        fill: #0739B9; }
   .navigation__nav-scrolled {
     background: #ffffffe8;
     border-bottom: 0.2rem solid #111; }
@@ -479,7 +479,7 @@ body {
   z-index: 1;
   top: 0;
   right: 0;
-  background: #de2a45;
+  background: #0739B9;
   padding: 50px 0;
   transform: translateX(100vw);
   transition: .5s; }
@@ -533,7 +533,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/img/lightbulb.png);
+  background: url(/img/waterfall-timelapse.jpg);
   min-height: 100vh;
   color: #fff;
   background-attachment: scroll;
@@ -568,8 +568,7 @@ body {
     font-weight: 400;
     color: #fff;
     text-align: center;
-    font-size: 11rem;
-    padding-bottom: .5rem;
+    font-size: 15rem;
     text-transform: uppercase;
     letter-spacing: 0.4rem;
     -webkit-font-smoothing: antialiased;
@@ -581,7 +580,7 @@ body {
     color: #fff;
     font-weight: 300;
     text-align: center;
-    font-size: 1.6rem;
+    font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.13rem; }
   .hero__button {
@@ -589,30 +588,30 @@ body {
     margin: 1.5rem auto 0;
     border-radius: 25px;
     padding: 8px 24px;
-    border: 2px solid #de2a45;
+    border: 2px solid #0739B9;
     background: transparent;
     color: #fff;
     letter-spacing: .08rem;
     transition: all .5s ease; }
     .hero__button:hover {
-      background: #de2a45;
+      background: #0739B9;
       color: #fff; }
     .hero__button:active {
       outline: none; }
     .hero__button--store {
-      background: #de2a45;
+      background: #0739B9;
       color: #fff;
-      border: 2px solid #de2a45; }
+      border: 2px solid #0739B9; }
       .hero__button--store:hover {
         background: #fff;
-        color: #de2a45;
+        color: #0739B9;
         border: 2px solid #fff;
         text-decoration: none; }
 
 .about {
   padding: 8rem 0 5rem;
   position: relative;
-  background: #241e20;
+  background: #F8F8F8;
   color: #fff; }
   @media only screen and (max-width: 37.5em) {
     .about {
@@ -633,6 +632,7 @@ body {
       .about__image {
         width: 100%; } }
   .about__header {
+    color: #080808;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 4rem;
     text-align: center; }
@@ -641,7 +641,7 @@ body {
         font-size: 4rem; } }
   .about__subheader {
     font-family: 'Open Sans Condensed', sans-serif;
-    color: #de2a45;
+    color: #0739B9;
     text-align: center;
     padding-bottom: 2rem;
     font-size: 2rem; }
@@ -649,7 +649,7 @@ body {
       .about__subheader {
         font-size: 2.4rem; } }
   .about__text {
-    color: #d1d1d1;
+    color: #919297;
     text-align: left;
     padding: 0 6rem 2rem; }
     @media only screen and (max-width: 56.25em) {
@@ -673,26 +673,26 @@ body {
         flex-direction: column;
         padding-bottom: 2rem; } }
   .about__btn--more {
-    color: #fff;
-    border: 2px solid #de2a45;
+    color: #080808;
+    border: 2px solid #0739B9;
     margin: inherit; }
     .about__btn--more:hover {
       cursor: pointer;
       color: #fff;
-      background: #de2a45; }
+      background: #0739B9; }
     @media only screen and (max-width: 37.5em) {
       .about__btn--more {
         margin: 0 auto 1rem; } }
   .about__btn--consultation {
     color: #fff;
-    background: #de2a45;
-    border: 2px solid #de2a45;
+    background: #0739B9;
+    border: 2px solid #0739B9;
     margin: inherit; }
     .about__btn--consultation:hover {
       cursor: pointer;
       color: #111;
       background: #fff;
-      border: 2px solid #de2a45; }
+      border: 2px solid #0739B9; }
     @media only screen and (max-width: 37.5em) {
       .about__btn--consultation {
         margin: auto; } }
@@ -711,19 +711,20 @@ body {
   flex-direction: column;
   align-items: center;
   position: relative;
-  background: #241e20;
+  background: #F8F8F8;
   color: #fff; }
   @media only screen and (max-width: 37.5em) {
     .art {
       padding: 50px 0 0; } }
   .art__name {
     font-size: 4.5rem;
-    font-family: "Open Sans Condensed", sans-serif; }
+    font-family: "Open Sans Condensed", sans-serif;
+    color: #080808; }
   .art__button {
     margin-bottom: 5rem;
-    background: #de2a45;
+    background: #0739B9;
     color: #fff !important;
-    border: 2px solid #de2a45; }
+    border: 2px solid #0739B9; }
     .art__button:hover {
       background: transparent;
       color: #111 !important;
@@ -780,10 +781,10 @@ body {
       padding-top: 2rem; }
     .art__row__text {
       padding: 1rem 4rem;
-      color: #d1d1d1; }
+      color: #919297; }
     .art__row__button {
-      border: 2px solid #de2a45;
-      color: #fff;
+      border: 2px solid #0739B9;
+      color: #080808;
       background: transparent;
       margin-bottom: 2rem; }
       @media only screen and (max-width: 37.5em) {
@@ -791,7 +792,7 @@ body {
           margin-bottom: 1rem;
           margin-top: 1rem; } }
       .art__row__button:hover {
-        background: #de2a45;
+        background: #0739B9;
         text-decoration: none;
         color: #fff; }
 
@@ -1038,7 +1039,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
 
 .skills {
   padding: 60px 0 80px;
-  background: #241e20;
+  background: #F8F8F8;
   color: #fff; }
   .skills__title {
     text-align: center;
@@ -1062,7 +1063,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
       .skills__icon-container__icon__title {
         text-align: center;
         padding-top: 1rem;
-        color: #d1d1d1; }
+        color: #919297; }
 
 .footer {
   background-color: #252525;
@@ -1080,7 +1081,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
     transition: color .5s ease; }
     .footer__logo:hover {
       cursor: pointer;
-      color: #de2a45; }
+      color: #0739B9; }
     @media only screen and (max-width: 56.25em) {
       .footer__logo {
         height: 150px; } }
@@ -1108,7 +1109,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
         justify-content: center;
         padding-bottom: 2rem; } }
   .footer__icon {
-    color: #de2a45;
+    color: #0739B9;
     font-size: 3rem; }
   .footer a {
     display: flex; }
@@ -1121,7 +1122,7 @@ Remove or comment-out the code block below to see how the browser will fall-back
     transition: all .3s; }
     .footer__text:hover {
       text-decoration: none;
-      color: #de2a45; }
+      color: #0739B9; }
   .footer__copyright--container {
     display: flex;
     justify-content: center;
@@ -1167,14 +1168,14 @@ Remove or comment-out the code block below to see how the browser will fall-back
     margin: 0 auto 1rem;
     text-align: center; }
   .contact__text {
-    color: #d1d1d1;
+    color: #919297;
     font-weight: 100;
     margin: 0 auto 2rem;
     text-align: center; }
   .contact__preference {
     margin: 0;
     font-size: 1.2rem;
-    color: #d1d1d1; }
+    color: #919297; }
     @media only screen and (max-width: 37.5em) {
       .contact__preference {
         font-size: 8px;
@@ -1184,8 +1185,8 @@ Remove or comment-out the code block below to see how the browser will fall-back
     font-size: 4rem; }
   .contact__button {
     color: #fff;
-    background: #de2a45;
-    border: 2px solid #de2a45; }
+    background: #0739B9;
+    border: 2px solid #0739B9; }
     .contact__button:hover {
-      color: #de2a45;
+      color: #0739B9;
       background: #fff; }
