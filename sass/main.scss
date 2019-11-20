@@ -1,0 +1,17 @@
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animations";
+@import "base/base";
+@import "base/typography";
+
+@import "/node_modules/magnify/dist/css/magnify.css";
+
+@import "components/navigation";
+@import "components/hero";
+@import "components/doctor";
+@import "components/art";
+@import "components/profile";
+@import "components/skills";
+@import "components/footer";
+@import "components/contact";
