@@ -65,6 +65,7 @@
     }
 
     &__button {
+        width: 130px;
         font-size: 1.4rem;
         margin: 1.5rem auto 0;
         border-radius: 25px;
@@ -84,16 +85,21 @@
             outline: none;
         }
 
-        &--store {
-            background: $color-primary-blue;
+        &--resume {
+            width: 130px;
+            font-size: 1.4rem;
+            margin: 1.5rem auto 0;
+            border-radius: 25px;
+            padding: 8px 24px;
+            border: 2px solid $color-primary-red;
+            background: transparent;
             color: $color-white;
-            border: 2px solid $color-primary-blue;
+            letter-spacing: .08rem;
+            transition: all .5s ease;
 
             &:hover {
-                background: $color-white;
-                color: $color-primary-blue;
-                border: 2px solid $color-white;
-                text-decoration: none;
+                background: $color-primary-red;
+                color: $color-white;
             }
         }
     }
